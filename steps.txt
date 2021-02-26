@@ -1,0 +1,15 @@
+Apriori Algorithm
+1. Set a minimum value for support and confidence. This means that we are only interested in finding rules for the items that have certain default existence (e.g. support) and have a minimum value for co-occurrence with other items (e.g. confidence).
+
+2. Extract all the subsets having higher value of support than minimum threshold.
+
+3. Select all the rules from the subsets with confidence value higher than minimum threshold.
+
+4. Order the rules by descending order of Lift.
+
+
+
+Apriori Algorithm
+Apriori algorithm finds the most frequent itemsets or elements in a transaction database and identifies association rules between the items just like the above-mentioned example.
+
+The algorithm uses a “bottom-up” approach, where frequent subsets are extended one item at once (candidate generation) and groups of candidates are tested against the data. The algorithm terminates when no further successful rules can be derived from the data.
