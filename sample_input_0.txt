@@ -1,0 +1,4 @@
+3
+{native-country=United-States,capital-gain=None}=>{capital-loss=None}
+{capital-gain=None,capital-loss=None}=>{native-country=United-States}
+{native-country=United-States,capital-loss=None}=>{capital-gain=None}
